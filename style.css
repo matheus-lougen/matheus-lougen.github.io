@@ -90,7 +90,7 @@ main {
 
 button {
     padding: 0px;
-    margin: 0px 0px 0px 10px; /* Make the toggle-theme button have a 10px margin from the logo */
+    margin: 0px 0px 0px var(--gap); /* Make the toggle-theme button have a 10px margin from the logo */
     font-size: 0px; /* Remove a weird space below the button */
 }
 
@@ -102,7 +102,7 @@ button:hover {
 .logo-container {
     display: flex; /* Put the toggle-theme button on the side of the logo */
     align-items: center;
-    height: 48px;
+    height: 100%;
 }
 
 .logo {
@@ -120,7 +120,9 @@ button:hover {
 .menu-container {
     display: flex;
     list-style: none;
+    align-items: center;
     padding: 0px;
+    margin: 0px;
 }
 
 .material-icons {
@@ -128,16 +130,19 @@ button:hover {
 }
 
 .menu-item {
+    display: flex;
+    align-items: center;
     height: 100%;
 }
 
 #menu-button {
-    padding: 0px 12px 0px 0px;
+    margin: 0px 24px 0px 0px;
     font-weight: 100;
 }
 
 #menu-button:hover {
     color: var(--secondary);
+    border-bottom: 2px solid var(--secondary);
 }
 
 .home-info {
