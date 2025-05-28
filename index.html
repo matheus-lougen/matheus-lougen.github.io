@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <title>Matheus Lougen</title>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
 
-    <!-- Google Material Icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-     <!--Fira code from google fonts  -->
-    <link href='https://fonts.googleapis.com/css?family=Fira Code' rel='stylesheet'>
-    <!-- Font awesome icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="resources/css/main.css">
+    <link rel="stylesheet" href="resources/css/homepage.css">
+    <link rel="stylesheet" href="resources/css/header.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <script src="resources/js/toggle-theme.js"></script>
+
+    <script src="https://kit.fontawesome.com/9bfeff103b.js" crossorigin="anonymous"></script>
     
-    <title>Matheus Lougen</title>
 </head>
-<body class="dark">
-    <header class="page-header">
-        <nav>
-            <div class="logo-container">
-                <a class="logo" href="https://matheuslougen.github.io">Matheus Lougen</a>
-                <div class="toggle-container">
-                    <button id="toggle-theme" onclick="alert('Hello World')">
-                        <i class="material-icons">wb_sunny</i>
-                    </button>
-                </div>
+<body id="body" class="theme-dark">
+    <header class="site-header">
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <a href="https://matheus-lougen.github.io"><h2>Matheus Lougen</h2></a>
+                <button class="toggle-theme-button" onclick="toggleTheme()"><i class="fa-regular fa-moon"></i></i></button>
             </div>
-            <ul class="menu-container">
-                <li class="menu-item"><a href="https://matheuslougen.github.io/about-me"><span id="menu-button">Sobre mim</span></a></li>
-                <li class="menu-item"><a href="https://matheuslougen.github.io/resume"><span id="menu-button">Currículo</span></a></li>
-                <li class="menu-item"><a href="https://matheuslougen.github.io/blog"><span id="menu-button">Blog</span></a></li>
+            <ul class="navbar-menu">
+                <li class="navbar-item"><a href="https://matheus-lougen.github.io/resume"><span class="navbar-link">Currículo</span></a></li>
+                <li class="navbar-item"><a href="https://matheus-lougen.github.io/blog"><span class="navbar-link">Blog</span></a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <article class="home-info">
+        <article>
             <header class="entry-header"><h1>Bem-vindo ao meu website!</h1></header>
             <div class="entry-content">Aqui você pode ver um conteúdo quase interessante!</div>
             <footer class="entry-footer">

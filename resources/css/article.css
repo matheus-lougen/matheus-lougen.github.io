@@ -1,0 +1,25 @@
+.article-header h1 {
+    font-size: 40px;
+}
+
+.article-content h2 {
+    font-size: 32px;
+    margin: 32px auto 24px;
+}
+
+.article-content h3 {
+    font-size: 24px;
+    margin: 24px auto 16px;
+}
+
+.article-content p {
+    margin: 0 0 var(--gap) 8px;
+}
+
+.article-content ul {
+    margin-bottom: var(--gap);
+}
+
+.article-content li {
+    margin-top: 5px;
+}
